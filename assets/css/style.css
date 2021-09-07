@@ -10,6 +10,9 @@ body{
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    width: 100%;
+    position:fixed;
+    z-index: 10;
   }
   header h1 {
     font-weight: bold;
@@ -58,4 +61,25 @@ header {
   }
   footer a {
     color: #024e76;
+  }
+  section {
+    padding: 60px;
+  }
+  .hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .heroForm{
+    float: right;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
   }
