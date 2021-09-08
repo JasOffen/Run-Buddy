@@ -31,42 +31,67 @@
                 <div>
                     <form>
                         <!--Name-->
-                        <label for="name">Enter Full Name:</label><br>
-                        <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+                        <label for="name">Enter Full Name:</label>
+                        <input class="formInput"type="text" id="name" name="name" placeholder="Your Name">
                         <!--Email-->
-                        <label for="email">Enter your email address:</label><br>
-                        <input type="text" id="email" name="email" placeholder="Email Address"><br><br>
+                        <label for="email">Enter your email address:</label>
+                        <input class="formInput" type="text" id="email" name="email" placeholder="Email Address">
                         <!--Phone Number-->
-                        <label for="phone">Enter aa phone number:</label><br>
-                        <input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+                        <label for="phone">Enter aa phone number:</label>
+                        <input class="formInput"type="text" id="phone" name="phone" placeholder="Phone Number">
                         <!--Have you worked with a trainer before-->
-                        <label for="WorkedOutBefore" id="WorkedOutBefore" name="WorkedOutBefore">Have you worked out with a trainer before?</label>
-                        <input type="radio" id="WorkedOutBefore" name="WorkedOutBefore" placeholder="yes">yes
-                        <input type="radio" id="WorkedOutBefore" name="WorkedOutBefore" placeholder="no">no<br><br>
+                        <p>
+                            <label for="WorkedOutBefore" id="WorkedOutBefore" name="WorkedOutBefore">Have you worked out with a trainer before?</label>
+                            <input type="radio" id="WorkedOutBefore" name="WorkedOutBefore" placeholder="yes">
+                            <label for="trainerYes">Yes</label>
+                            <input type="radio" id="WorkedOutBefore" name="WorkedOutBefore" placeholder="no">
+                            <label for="trainerNo">No</label>
+                        </p>
                         <!--18 years old at least-->
-                        <label for="Acknowledgement" id="Acknowledgement" name="Acknowledgement" placeholder="Acknowledgement">I acknowledge that I am at least 18 years of age</label>
-                        <input type="checkbox" id="Yes" name="ackYes" placeholder="ackYes"><br><br>
-                        <!--Form Submit-->
-                        <input type="submit" placeholder="Get Running!">
+                        <p>
+                            <label for="Acknowledgement">I acknowledge that I am at least 18 years of age</label>
+                            <input type="checkbox" id="Yes" name="ackYes" placeholder="ackYes">
+                        </p>
+                            <!--Form Submit-->
+                        <button type="submit">
+                            Get Running!
+                        </button>
                     </form>
                 </div>
             </div>
         </section>
         <!--What We Do Section-->
-        <div>
+        <section id="what-we-do">
             <div>
-                <h1>What We Do</h1><br>
-                <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably havent heard of them single-orgin coffee Vice funny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable intelligentsia umami deep v craft</p>
-            </div>
-        </div>
+                <!-- insert this img element -->
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here, so why not?</p>
+              </div>
+        </section>
         <!--What You Do Section-->
+        <section id="what-you-do">
+            <div>
+                <h2>What You Do</h2>
+            </div>
+        </section>
         <!--Meet The Trainers-->
+        <section id="meet-the-trainers">
+            <div>
+                <h2>Meet The Trainers</h2>
+            </div>
+        </section>
         <!--Reach Out-->
+        <section id="reach-out">
+            <div>
+                <h2>Reach Out</h2>
+            </div>
+        </section>
     </body>
     <!--Footer-->
     <footer>
         <h2>❤️ Made with love by Run Buddy.</h2>
-        <div class = "footerright">
+        <div class = "footerRight">
             <a href="#">Read our Privacy Policy</a><br>
             &copy; 2019 Run Buddy, Inc.
         </div>
